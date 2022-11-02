@@ -15,6 +15,8 @@ header {
     height: 60px;
 }
 
+
+
 .flex-conteiner {
     display: flex;
     background-color: #ffffff;
@@ -61,6 +63,15 @@ h1 {
 
 }
 
+@media {
+    (min-width: 300px 640px; )
+    
+    
+    .flex-conteiner
+    .flex-item
+    #Letra-logo
+}
+
 /* Fin header */
 
 /* Inicio main */
@@ -68,6 +79,10 @@ h1 {
 main {
     width: 100%;
     height: 100%;
+}
+@media{
+    (min-width: 360px ;)
+    main
 }
 
 /* Inicio banner */
@@ -96,6 +111,13 @@ main {
     opacity: 0.8;
 }
 
+@media{
+    (min-width: 360px;)
+
+    .banner .wrapper
+    #family.font
+}
+
 /* Fin banner */
 
 /* Inicio articulos */
@@ -119,7 +141,8 @@ h2 {
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns:(1fr 1fr);
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr ;
     gap: 20px;
     
 }
@@ -167,6 +190,14 @@ z-index: 1;
 
 }
 
+@media{
+    (min-width: 360px;)
+    .grid-container .item-1
+    .item-2
+    .item-3
+    .item-4
+}
+
 /* Inicio footer */
 
 footer {
@@ -177,6 +208,10 @@ footer {
     padding: 30px;
 }
 
+.footer div{
+    display: flex ;
+    justify-content: center;
+}
 
 div a svg {
     color: #ffffff;
@@ -184,6 +219,5 @@ div a svg {
     padding: 0;
     margin: 5px;
     display: inline-block;
-
 
 }
