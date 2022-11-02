@@ -163,6 +163,13 @@ article div img:hover {
     transform: scale(1.2);
 }
 
+a img{
+    width:75%;
+    margin: 30px;
+    padding: 10px;
+}
+
+
 
 /* .imagenes-flex{
     display: flex;
